@@ -13,6 +13,11 @@
 		388A03B427E8A32E0059BEC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 388A03B227E8A32E0059BEC8 /* Main.storyboard */; };
 		388A03B627E8A32F0059BEC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 388A03B527E8A32F0059BEC8 /* Assets.xcassets */; };
 		388A03B927E8A32F0059BEC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 388A03B727E8A32F0059BEC8 /* LaunchScreen.storyboard */; };
+		388A03C527E8A3DC0059BEC8 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 388A03C027E8A3DC0059BEC8 /* board.png */; };
+		388A03C627E8A3DC0059BEC8 /* O.png in Resources */ = {isa = PBXBuildFile; fileRef = 388A03C127E8A3DC0059BEC8 /* O.png */; };
+		388A03C727E8A3DC0059BEC8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 388A03C227E8A3DC0059BEC8 /* Icon.png */; };
+		388A03C827E8A3DC0059BEC8 /* X.png in Resources */ = {isa = PBXBuildFile; fileRef = 388A03C327E8A3DC0059BEC8 /* X.png */; };
+		388A03C927E8A3DC0059BEC8 /* empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 388A03C427E8A3DC0059BEC8 /* empty.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		388A03B527E8A32F0059BEC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		388A03B827E8A32F0059BEC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		388A03BA27E8A32F0059BEC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		388A03C027E8A3DC0059BEC8 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		388A03C127E8A3DC0059BEC8 /* O.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = O.png; sourceTree = "<group>"; };
+		388A03C227E8A3DC0059BEC8 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		388A03C327E8A3DC0059BEC8 /* X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = X.png; sourceTree = "<group>"; };
+		388A03C427E8A3DC0059BEC8 /* empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = empty.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,11 @@
 		388A03AB27E8A32E0059BEC8 /* TicTacToe */ = {
 			isa = PBXGroup;
 			children = (
+				388A03C027E8A3DC0059BEC8 /* board.png */,
+				388A03C427E8A3DC0059BEC8 /* empty.png */,
+				388A03C227E8A3DC0059BEC8 /* Icon.png */,
+				388A03C127E8A3DC0059BEC8 /* O.png */,
+				388A03C327E8A3DC0059BEC8 /* X.png */,
 				388A03AC27E8A32E0059BEC8 /* AppDelegate.swift */,
 				388A03AE27E8A32E0059BEC8 /* SceneDelegate.swift */,
 				388A03B027E8A32E0059BEC8 /* ViewController.swift */,
@@ -125,9 +140,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				388A03C727E8A3DC0059BEC8 /* Icon.png in Resources */,
+				388A03C527E8A3DC0059BEC8 /* board.png in Resources */,
 				388A03B927E8A32F0059BEC8 /* LaunchScreen.storyboard in Resources */,
+				388A03C927E8A3DC0059BEC8 /* empty.png in Resources */,
 				388A03B627E8A32F0059BEC8 /* Assets.xcassets in Resources */,
+				388A03C827E8A3DC0059BEC8 /* X.png in Resources */,
 				388A03B427E8A32E0059BEC8 /* Main.storyboard in Resources */,
+				388A03C627E8A3DC0059BEC8 /* O.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +310,7 @@
 				DEVELOPMENT_TEAM = TGL44JG796;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TicTacToe/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tic-Tac-Toe";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,6 +339,7 @@
 				DEVELOPMENT_TEAM = TGL44JG796;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TicTacToe/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tic-Tac-Toe";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
